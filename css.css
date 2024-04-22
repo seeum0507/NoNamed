@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 6px;
+  height: 60px;
+  text-align: right;
+}
+
+header a {
+  color: black;
+}
+
+header div {
+  display: inline-block;
+}
+
+/* .header-icon img {
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+} */
+
+.header-text,
+.header-icon {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.header-text div {
+  padding-right: 5px;
+}
+
+section {
+  margin-top: 170px;
+  text-align: center;
+}
+
+.main-logo {
+  width: 272px;
+  height: 92px;
+}
+
+.search-bar {
+  margin: 0 auto;
+  width: 582px;
+  height: 34px;
+  margin-top: 26px;
+  border: 1px solid white;
+  border-radius: 24px;
+  padding-top: 10px;
+}
+
+.search-bar {
+  display: inline-block;
+  vertical-align: middle;
+  border-width: 2.5px;
+  border-color: rgba(180, 179, 179, 0.22);
+  box-shadow: 6px rgb(113, 113, 113, 0.3);
+}
+
+.glass {
+  width: 20px;
+  height: 20px;
+}
+
+.mic {
+  width: 14px;
+  height: 20px;
+}
+input {
+  width: 487px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
